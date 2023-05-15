@@ -1,30 +1,27 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("hardhat-gas-reporter");
+require("dotenv").config;
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: {
-    compilers: [
-      {version: "0.7.6"},
-      {version: "0.8.17"},
-    ],
+    compilers: [{ version: "0.7.6" }, { version: "0.8.17" }],
   },
   settings: {
     optimizer: {
       enabled: true,
-      runs: 1000,
+      runs: 200,
     },
   },
   networks: {
     hardhat: {
       forking: {
-        url: "https://eth-mainnet.alchemyapi.io/v2/uJTaBZ4N6j_NP8dae9JqI26-NQhBzbDw",
+        url: "https://eth-mainnet.g.alchemy.com/v2/54MkzWl-g5MhyDsRpbR01xGWMHVnUlbr",
         blockNumber: 14390000,
-      }
-    }
+      },
+    },
   },
   gasReporter: {
     enabled: process.env.REPORT_GAS !== undefined,
     currency: "USD",
   },
-  
 };
