@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "flashswap",
+  "sourceName": "contracts/uniswapV2flashSwap.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220560af3a74a5e16a42764b4580de0cea5a7e07466255d891596eca27590441d1664736f6c63430008110033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220560af3a74a5e16a42764b4580de0cea5a7e07466255d891596eca27590441d1664736f6c63430008110033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
