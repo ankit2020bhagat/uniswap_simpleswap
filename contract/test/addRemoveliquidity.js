@@ -1,6 +1,6 @@
 const { ethers } = require("hardhat");
 
-describe.only("AddRemove liquidity contract ", function () {
+describe("AddRemove liquidity contract ", function () {
   let accounts, tokenA, tokenB, uniswapContract;
   it("contract deployemtn", async function () {
     const contractFactory = await ethers.getContractFactory(

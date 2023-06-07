@@ -56,7 +56,7 @@ describe("Contract deployment", function () {
     });
   });
   describe("swap DAI -> WETH -> USDC", function () {
-    it("should swap DAI to USDC", async function () {
+    it("should swap D {currentAccount && renderInputForm()}AI to USDC", async function () {
       let amountIn = ethers.utils.parseEther("0.1");
       let amountOut = 1;
       const swaptxn = await uniswapContract.swapMultiHopExactAmountIn(
